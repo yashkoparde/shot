@@ -1,0 +1,6 @@
+{
+  "name": "SHOT",
+  "description": "Student Hub Of Talent - A premium private college talent showcase platform with full student social feeding and a separate, dedicated admin moderation portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

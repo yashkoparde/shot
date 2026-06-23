@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cyan: #22D3EE;
+  --color-brand-lavender: #A78BFA;
+  --color-brand-peach: #FDBA74;
+  --color-brand-pink: #F9A8D4;
+  --color-brand-lime: #A3E635;
+  --color-brand-offwhite: #FAFAF8;
+  --color-brand-charcoal: #0B0B0D;
+  --color-brand-secondary: #111318;
+
+  --font-display: 'Syne', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Custom global overrides to guarantee sleek, butter smooth premium interactions */
+body {
+  background-color: #0B0B0D;
+  color: #FAFAF8;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22D3EE/20;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22D3EE/40;
+}
